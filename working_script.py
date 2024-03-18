@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Aug 25 19:41:27 2020
-
-@author: brato
+@author: Brais Lorenzo 
 """
-
 
 import requests
 
@@ -12,7 +9,7 @@ import json
 import pandas as pd
 pd.set_option("display.max_columns", 15)
 pd.set_option("display.max_rows", 4)
-tags = ["#GLQ0L02J","#9PUR9PCCU" ] #the first list for tags, starts with one tag. 
+tags = ["#GLQ0L02J","#9PUR9PCCU" ] #User inserts the tag they want if they want to insert a specific tag.
 
 used_tags = []
 data = []
